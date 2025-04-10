@@ -3,3 +3,18 @@
 <!-- npm create vue@latest -->
 
 <!-- --------------------------------------------------------- -->
+
+<!-- Criar um componente "ListaTimes.vue" na pasta "components" -->
+
+<!-- --------------------------------------------------------- -->
+
+<!-- Estrutura basica de um componetnte em Vue -->
+<!--
+<template>
+
+</template>
+
+<script></script>
+
+<style></style> -->
+<!-- --------------------------------------------------------- -->
