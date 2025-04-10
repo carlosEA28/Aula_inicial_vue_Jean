@@ -18,3 +18,8 @@
 
 <style></style> -->
 <!-- --------------------------------------------------------- -->
+
+props = Propriedades de um componente, para gerar dinamismo
+
+propriedades passadas com ":" na frente, passam o valor,
+sem os ":", ele será recebido como uma string

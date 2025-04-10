@@ -8,7 +8,7 @@ import ListaTimes from './components/ListaTimes.vue' // importa o componente
   <RouterLink to="/about">About</RouterLink>
 
   <!-- Usando o componente -->
-  <ListaTimes />
+  <ListaTimes :times="['internacional', 'Gremio', 'Juventude', 'São Paulo', 'Flamengo']" />
 
   <RouterView />
 </template>

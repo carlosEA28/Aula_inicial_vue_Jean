@@ -1,16 +1,18 @@
 <template>
   <h1>Times</h1>
 
-  <ul>
-    <li>Inter</li>
-    <li>Ibis</li>
-    <li>Juventude</li>
-  </ul>
+  <BotomTime v-for="time in times" v-bind:key="time" :nomeTime="time" />
 </template>
 
 <script>
+import BotomTime from './BotomTime.vue'
+
 export default {
   name: 'ListaTimes', //nome do componente
+  components: { BotomTime },
+  props: {
+    times: Array,
+  },
 }
 </script>
 
